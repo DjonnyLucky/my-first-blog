@@ -3,5 +3,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 
-def show(request):
-    return HttpResponse("Hello Django!")
+def post_list(request):
+    return render(request, 'lesson_one/post_list.html', {})
